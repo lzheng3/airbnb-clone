@@ -9,7 +9,7 @@ import { SafeListing, SafeUser } from "@/types";
 import { Container, Heading, ListingCard } from ".";
 
 interface PropertiesClientProps {
-  listings: SafeListing[];
+  listings?: SafeListing[];
   currentUser?: SafeUser | null;
 }
 
