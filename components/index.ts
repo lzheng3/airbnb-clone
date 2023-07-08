@@ -1,5 +1,4 @@
 import Navbar from "./navbar/Navbar";
-import Footer from "./Footer";
 import Container from "./Container";
 import Search from "./navbar/Search";
 import Logo from "./navbar/Logo";
@@ -39,7 +38,6 @@ import Loader from "./Loader";
 
 export {
   Navbar,
-  Footer,
   Container,
   Search,
   Logo,
