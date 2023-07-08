@@ -56,7 +56,7 @@ const PropertiesClient: React.FC<PropertiesClientProps> = ({
           gap-8
         "
       >
-        {listings.map((listing: any) => (
+        {listings?.map((listing: any) => (
           <ListingCard
             key={listing.id}
             data={listing}

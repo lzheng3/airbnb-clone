@@ -77,7 +77,7 @@ const ListingClient = ({
       })
       .catch(() => toast.error("Something went wrong!"))
       .finally(() => setIsLoading(false));
-  }, [totalPrice, dateRange, listing?.id, router, currentUser, LoginModal]);
+  }, [totalPrice, dateRange, listing?.id, router, currentUser, loginModal]);
 
   useEffect(() => {
     if (dateRange.startDate && dateRange.endDate) {
